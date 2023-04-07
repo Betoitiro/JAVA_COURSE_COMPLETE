@@ -5,11 +5,16 @@ public class Mproduto {
 	String nome;
 	double preco;
 	double desconto;
+	double descontoDOgerente;
+	
 	
 	double precoDesconto() { //não recebe nenhum parametr, ja que todos os dados
 					//estão dentro do obeto, assim não tem que usar os parametros
 		
 		return preco * (1 - desconto);
 		
+		//esse metodo serve para usar em um sistema.
+	
 	}
+
 }
