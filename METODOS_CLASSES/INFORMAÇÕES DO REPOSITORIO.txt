@@ -5,4 +5,7 @@ Se você está olhando esse arquivo, é por que se interessou pelo meu repositor
 Então, vamos lá!
 Essas são as minhas aulas de Java referente a classes e metodos...
 
-Como deve ter percebido, 
+Como deve ter percebido, todo arquvo tem um numero ao fim, e esse numero, corresponde a sequencia que deve ser seguida;
+No momento que estou fazendo esse texto informativo, estou na aula 9, vamos ver ate aonde vão esses numeros kkkk.
+
+Então, no grl é isso, espero que ache o que esta procurando!!
