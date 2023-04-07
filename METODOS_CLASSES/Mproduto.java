@@ -5,7 +5,7 @@ public class Mproduto {
 	String nome;
 	double preco;
 	double desconto;
-	double descontoDOgerente;
+	
 	
 	
 	double precoDesconto() { //não recebe nenhum parametr, ja que todos os dados
@@ -16,5 +16,7 @@ public class Mproduto {
 		//esse metodo serve para usar em um sistema.
 	
 	}
-
+	double precoDesconto(double descontoDogerete) {
+		return preco *(1 - (desconto + descontoDogerete)); // nesse caso somara o desconto atual, com o desconto acresentado pelo gerente
+	}
 }
