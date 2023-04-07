@@ -2,10 +2,13 @@ package METODOS_CLASSES;
 
 public class DESAFIO_METODO_DATA {
 	 
+	
+	//clase para onjetos
 	int dia;
 	int mes;
 	int ano;
 	
+	//metodos 
 	String dataFormatada() {
 		return String.format("%d/%d/%d", dia,mes,ano);
 	}

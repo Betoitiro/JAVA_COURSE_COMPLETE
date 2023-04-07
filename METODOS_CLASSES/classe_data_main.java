@@ -13,9 +13,17 @@ public class classe_data_main {
 		int m = d1.mes;
 		int a = d1.ano;
 		
+		/*
+		var d2 = new classe_data();
+		d2.data =15;
+		d2.mes = 11;
+		d2.ano = 2006;
+		*/
 		System.out.println("meu amor nasceu no dia " + data +
 				" no mes de " + m +
 				" do ano de " + a);
 		System.out.printf("%d/%d/%d", d1.data,d1.mes,d1.ano);
 	}
+	
+	
 }
