@@ -1,6 +1,6 @@
 package METODOS_CLASSES;
 
-public class classe_data {
+public class classe_data01 {
 	
 	int data;
 	int mes; //para conseguir usar a data da maneira convencional, 11/11/11

@@ -1,9 +1,9 @@
 package METODOS_CLASSES;
 
-public class Mproduto02 {
+public class Mproduto06 {
 	public static void main(String[] args) {
 		
-		Mproduto m1 =new Mproduto();
+		Mproduto05 m1 =new Mproduto05();
 		
 		m1.nome ="Mercedes";
 		m1.preco = 250.000;

@@ -1,6 +1,6 @@
 package METODOS_CLASSES;
 
-public class Mproduto {
+public class Mproduto05 {
 
 	String nome;
 	double preco;

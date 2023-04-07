@@ -1,9 +1,9 @@
 package METODOS_CLASSES;
 
-public class classe_data_main {
+public class classe_data_main02 {
 	public static void main(String[] args) {
 		
-		classe_data d1 = new classe_data();
+		classe_data01 d1 = new classe_data01();
 		
 		d1.data = 14;
 		d1.mes =07;

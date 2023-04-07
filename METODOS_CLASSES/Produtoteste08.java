@@ -1,13 +1,13 @@
 package METODOS_CLASSES;
 
 
-public class Produtoteste {
+public class Produtoteste08 {
 	
 	public static void main(String[] args) {
 		//para usar as variaveis do objeto, tem que usar o nome da classe
 		//usando uma variavel p1
 		//colocando new produto
-		Produto p1 = new Produto();
+		Produto07 p1 = new Produto07();
 		p1.nome = "celular";
 		p1.preco = 4000.00;
 		p1.desconto = 0.30;
@@ -16,7 +16,7 @@ public class Produtoteste {
 		//para criar outra variavel, usa:
 		//var p3 =  new Produto,
 		//Produto é o nome da classe que foi salva com as variaveis
-		var p2 = new Produto();
+		var p2 = new Produto07();
 		p2.nome = "mouse pad";
 		p2.preco = 50.00;
 		p2.desconto = 0.25;
