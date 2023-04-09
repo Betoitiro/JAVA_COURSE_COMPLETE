@@ -22,5 +22,17 @@ public class VALOR_vS_REFERENCIA {
 		
 		System.out.println(d1.dataFormatada());
 		System.out.println(d2.dataFormatada());
+		
+		voltardtpd(d1);
+		voltardtpd(d2);
+		System.out.println(d1.dataFormatada());
+		System.out.println(d2.dataFormatada());
+		
+	}
+	
+	static void voltardtpd (classe_data01 d) {
+		d.data = 1;
+		d.mes = 1;
+		d.ano = 1970;
 	}
 }
