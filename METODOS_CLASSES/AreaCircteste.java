@@ -12,8 +12,10 @@ public class AreaCircteste {
 		
 		System.out.println(a.area());
 		
-		AreaCirc.pi = 3.15; //a maneira que podemos mudar o valor static da classe, dentro do programa
-	
+		//AreaCirc.pi = 3.15;
+		//a maneira que podemos mudar o valor static da classe, dentro do programa
+		//com a definição de pi como constante, não é possivel modificalo. 
+		
 		System.out.println(a1.area());
 		
 		System.out.println(a.area()); //dessa forma os resultados irão da diferente, devido a mudança do membro da classe
