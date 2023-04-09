@@ -1,16 +1,16 @@
 package DESAFIOS;
 
-public class DESAFIO_METODO_DATA_TESTE04 {
+public class DESAFIO_METODO_DATA_TESTE {
 	public static void main(String[] args) {
 	
-		DESAFIO_METODO_DATA03 d1 = new DESAFIO_METODO_DATA03();
+		DESAFIO_METODO_DATA d1 = new DESAFIO_METODO_DATA();
 		//classes e variaveis objeto
 		
 		d1.dia = 19;
 		d1.mes = 12;
 		d1.ano = 1980;
 		
-		var d2 = new DESAFIO_METODO_DATA03();
+		var d2 = new DESAFIO_METODO_DATA();
 		d2.dia =11;
 		d2.mes = 10;
 		d2.ano = 2000;

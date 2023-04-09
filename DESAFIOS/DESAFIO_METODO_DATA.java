@@ -1,6 +1,6 @@
 package DESAFIOS;
 
-public class DESAFIO_METODO_DATA03 {
+public class DESAFIO_METODO_DATA {
 	 
 	
 	//clase para onjetos
