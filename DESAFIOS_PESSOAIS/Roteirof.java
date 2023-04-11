@@ -44,7 +44,7 @@ public class Roteirof {
 		System.out.printf("ja na segunda viagem tera um gasto total de R$" + v2.total());
 		
 		
-		System.out.println();
+		System.out.println();//quebra de linha
 		System.out.println("Agora segue o roteiro e possiveis gastos da sua proxima viagem: ".toUpperCase());
 		System.out.println();//quebra de linha
 		
@@ -62,8 +62,19 @@ public class Roteirof {
 				"o valor gasto com passagem é de R$" + v3.passagem + "voce podera levar aproximadamente R$" + v3.multas + " e aproximadamente R$"
 						+v3.compras +  "em compras");
 		
-		System.out.println();
+		System.out.println();//quebra de linha
+		
 		System.out.println("Esssa viagem tera um gasto total de R$"+ v3.total());
+		
+		System.out.println();//quebra de linha
+		
+		System.out.println("vamos calcular o total que sera gasto nas 3 viagens".toUpperCase());
+		System.out.println();
+		
+		double soma = v1.total() + v2.total() + v3.total();
+		
+		System.out.printf("O valor gasto nas 3 viagens sera de R$%.2f", soma);
+		System.out.println();
 		System.out.println();
 		
 		System.out.println("Espero que aproveite seu cronograma de viagem!!".toUpperCase());
