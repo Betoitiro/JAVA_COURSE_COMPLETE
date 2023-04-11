@@ -1,6 +1,5 @@
 
 
-
 Olá, seja bem-vido ao meu repositório de desafios pessoais em java!
 
 Nesse repositório, tive como iniciativa, criar desafios pessoais em cima dos dados nas aulas do curso da udemy.
@@ -11,10 +10,25 @@ O desafio que eu realizei ate o momento é sobre a interação de métodos, clas
 
 Então vamos seguir para a introdução do desafio:
 
+
+
 INTRODUÇÃO:
 esse desafio, possui o objetivo, usar as variáveis de instância(objeto), com o uso de classes, métodos e construtores!
 
-O desafio consiste em criar um sistema que calcule os gastos de 3 viagens para o usuário.
-Atravez dos construtores, sera informado, cidade, passagem, hospedagem e os dias.
-Na primeira viagem ele só ira gastar com passagem, hospedagem e diárias. Nesse sentido, tera que calcular o valor gasto por diárias, hospedagem e passagens e mostrar o total no final.
-Na segunda viagem 
+O desafio consiste em criar um sistema que calcule os gastos de 3 viagens para o usuário, mostre o valor de cada uma delas e valor de todas ao final.
+Através dos construtores, sera informado, cidade, passagem, hospedagem e os dias.
+
+Na primeira viagem o usuário só ira gastar com passagem, hospedagem e diárias.
+
+
+Na segunda viagem o programa seguira o mesmo foco da primeira, só que tera uma nova variável que sera o prejuízo, que somara aos custos.
+Sendo assim, no construtor sera informada cidade, passagem, hospedagem, prejuízo e os dias.
+e sera calculado da mesma forma que foi na primeira viagem, e adicionando essas duas outras variáveis
+
+
+Na terceira viagem, o programa seguira o mesmo procedimento das anteriores, só que tera mais duas novas variáveis de instância, que serão compras e multas, e sera retirada a variável de prejuízo, assim o restante somara ao gasto total.
+
+
+
+E por final teremos a classe que conterá o main, que sera a responsável por unir todos os construtores.
+Essa class calculara o resultado dos gastos de todas as viagens e mostrar o quanto sera gasto no final das 3 viagens.
