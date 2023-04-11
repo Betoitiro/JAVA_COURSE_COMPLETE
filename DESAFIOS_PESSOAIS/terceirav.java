@@ -19,7 +19,12 @@ public class terceirav {
 		this.compras = compras;
 		this.multas = multas;
 	}
-	
+	terceirav(){
+		
+	}
+	double diarias () {
+		return dias * 180;
+	}
 	double total(){
 		return (dias *180) + hospedagem + passagem + compras + multas;
 	}

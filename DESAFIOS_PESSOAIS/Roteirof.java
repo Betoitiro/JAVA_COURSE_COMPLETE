@@ -43,9 +43,30 @@ public class Roteirof {
 		
 		System.out.printf("ja na segunda viagem tera um gasto total de R$" + v2.total());
 		
-		System.out.println("Agora segue o roteiro e possiveis gastos da sua proxima viagem: ".toUpperCase());
 		
-		terceirav v3 = new terceirav(String "Lisboa", double 5500, double 7500, int 15, double 3000, double 4550);
+		System.out.println();
+		System.out.println("Agora segue o roteiro e possiveis gastos da sua proxima viagem: ".toUpperCase());
+		System.out.println();//quebra de linha
+		
+		terceirav v3 = new terceirav();
+		v3.cidade = "Lisboa";
+		v3.passagem = 5000;
+		v3.hospedagem = 8800;
+		v3.dias = 15;
+		v3.compras = 4560;
+		v3.multas = 3000;
+		
+		System.out.println(v3.intro3());
+		
+		System.out.println("o valor gasto diarias é R$" + v3.dias + "o valor gasto com hospedagem é de R$" + v3.hospedagem +
+				"o valor gasto com passagem é de R$" + v3.passagem + "voce podera levar aproximadamente R$" + v3.multas + " e aproximadamente R$"
+						+v3.compras +  "em compras");
+		
+		System.out.println();
+		System.out.println("Esssa viagem tera um gasto total de R$"+ v3.total());
+		System.out.println();
+		
+		System.out.println("Espero que aproveite seu cronograma de viagem!!".toUpperCase());
 		
 		
 		
