@@ -32,3 +32,6 @@ Na terceira viagem, o programa seguira o mesmo procedimento das anteriores, só 
 
 E por final teremos a classe que conterá o main, que sera a responsável por unir todos os construtores.
 Essa class calculara o resultado dos gastos de todas as viagens e mostrar o quanto sera gasto no final das 3 viagens.
+
+
+Espero que goste!
