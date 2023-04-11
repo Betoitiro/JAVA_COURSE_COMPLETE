@@ -30,7 +30,7 @@ public class VALOR_vS_REFERENCIA {
 		
 	}
 	
-	static void voltardtpd (classe_data01 d) {
+	static void voltardtpd (classe_data01 d) { //o static vai alterar diretamente ambos os objetos
 		d.data = 1;
 		d.mes = 1;
 		d.ano = 1970;
