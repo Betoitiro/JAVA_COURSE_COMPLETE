@@ -8,13 +8,13 @@ public class EXERCICIO {
 		
 		double [] notasAlunox = new double[3];
 		
-		System.out.println(Arrays.toString(notasAlunox));//quando inicializado todos os elementos são iguais a 0
+		Arrays.toString(notasAlunox); //comando usado para conseguir chamar o array dentro do System.out.println
+		//System.out.println(Arrays.toString(notasAlunox));//quando inicializado todos os elementos são iguais a 0
 		
 		notasAlunox [0] = 7.9;
 		notasAlunox [1] = 8;
 		notasAlunox [2] = 9.7;
 		
-		Arrays.toString(notasAlunox); //comando usado para conseguir chamar o array dentro do System.out.println
 		
 		System.out.println(Arrays.toString(notasAlunox));
 		
@@ -23,9 +23,13 @@ public class EXERCICIO {
 			totalAlunox += notasAlunox[i];
 		}
 		
-		System.out.println(totalAlunox/3);
+		System.out.println("a media do aluno x é " + totalAlunox/3);
 		
-		double [] notasAulunoz = {5.6, 9.5, 7.0, 4.9};
+		System.out.println("segunda nota " + notasAlunox[1]);//comando para ver apenas uma nota do aluno
+		
+		final double pontoExtra = 6.5; //constante criada que é possivel colocar dentro do array
+		double [] notasAulunoz = {5.6, 9.5, 7.0, pontoExtra}; //array com dados literais
+														//caso menos usado
 		
 		double totalAlunoz = 0;
 		for (int i = 0; i < notasAulunoz.length; i++) { //se usar o for e der ctrl espaço, tem a opção for em array
@@ -33,6 +37,8 @@ public class EXERCICIO {
 			
 		}
 		System.out.println(totalAlunoz/notasAulunoz.length);
+		System.out.println(notasAulunoz[0]);
+		System.out.println(notasAulunoz[2]);
 		
 	}
 }
