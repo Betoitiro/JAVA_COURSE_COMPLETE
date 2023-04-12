@@ -1,4 +1,4 @@
-package ARRAYS_E_COLLCTIONS;
+package ARRAYS;
 
 import java.util.Arrays;
 
@@ -37,7 +37,7 @@ public class EXERCICIO {
 			
 		}
 		System.out.println(totalAlunoz/notasAulunoz.length);
-		System.out.println(notasAulunoz[0]);
+		System.out.println(notasAulunoz[0]); //como imprimir um elemento especifico dentro do array
 		System.out.println(notasAulunoz[2]);
 		
 	}
