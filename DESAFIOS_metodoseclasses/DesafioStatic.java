@@ -1,4 +1,4 @@
-package DESAFIOS;
+package DESAFIOS_metodoseclasses;
 
 public class DesafioStatic {
 	String produto;

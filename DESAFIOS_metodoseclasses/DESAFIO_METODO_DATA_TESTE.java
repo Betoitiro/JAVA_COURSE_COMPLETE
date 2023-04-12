@@ -1,4 +1,4 @@
-package DESAFIOS;
+package DESAFIOS_metodoseclasses;
 
 public class DESAFIO_METODO_DATA_TESTE {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package DESAFIOS;
+package DESAFIOS_metodoseclasses;
 
 public class DESAFIO_PTM {
 	int a =3;
