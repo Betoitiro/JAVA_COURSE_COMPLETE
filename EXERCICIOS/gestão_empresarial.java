@@ -6,11 +6,17 @@ public class gestão_empresarial {
 	
 	public static void main(String[] args) {
 			
+			//INFORMAÇÕES SOBRE O CODIGO
+		
 			// o sistema tem o objetivo de solicitar o nome da empresa e seu arrecadamento total
 			//o sistema tem como objetivo calcular a media salarial dos funcionarios da empresa
 			//apresentar se teve lucro ou prejuizo, respeitando a regra que uma margem inferior 50% do arrecadamento é lucro e superior prejuizo
 			//a empresa deve ter no minimo 11 funcionarios.
+			//cada funcionario deve ganhar no minimo 2 salarios por mes
 			//pode ser usar o metodo construtor se for necessario
+			//esse exercicio usa arrys bidimensional para a sua estrutura.
+			//estrutura de controle if e else para usar condições de quantidade de salario e quantidade de funcionario
+		
 			
 			Scanner entrada = new Scanner(System.in);
 			
@@ -39,14 +45,14 @@ public class gestão_empresarial {
 						}
 					}
 					
-					double media = total/(funcionarios/salario);
+					double media = total/(funcionarios*salario);
 					System.out.printf("A media salario dos funcionarios da empressa %s é %.2f"
 							, empresa.toUpperCase(), media);
 					
 					System.out.println();//quebra de linha
 					
 					double status = (arrecadamento / total) * 100.00;
-					if (status>50) {
+					if (status<50) {
 						System.out.printf("a empresa teve um apurado de R$%.2f e uma media de gasto com funcionario de R$%.2f,\n "
 								+ "porem o percentual de gasto não ultraassou a medida de 50 porcento estabelecida pelo sistema!\n"
 								+ "Nesse sentido, não teve prejuizo!", arrecadamento,total);

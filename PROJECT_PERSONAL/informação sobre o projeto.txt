@@ -1,3 +1,0 @@
-Olá, seja bem-vindo!
-
-Esse projeto tem como objetivo usar os construtores para que force o sistema a escolher a sequencia de dados de um banco
