@@ -3,7 +3,7 @@ package COLLECTTION;
 import java.util.HashSet;
 import java.util.Set;
 
-public class conjuntoBagunçado {
+public class SET__conjuntoBagunçado {
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 		
