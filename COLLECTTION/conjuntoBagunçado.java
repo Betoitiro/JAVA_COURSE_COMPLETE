@@ -1,6 +1,7 @@
 package COLLECTTION;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class conjuntoBagunçado {
 	public static void main(String[] args) {
@@ -32,5 +33,21 @@ public class conjuntoBagunçado {
 		
 		System.out.println(conjunto.contains(true));//comando para ver se o conjunto contem ou n o intem
 		System.out.println(conjunto.contains(false));//comando para ver se o conjunto contem ou n o intem
+		
+		Set nums = new HashSet();
+		
+		nums.add(1);
+		nums.add(3);
+		nums.add(7);
+		
+		System.out.println(nums); //mostrara como string
+		System.out.println(conjunto); //mostrara oq falta, ou seja, retir a interseção dos conjuntos e mostra o resto
+		
+		conjunto.addAll(nums); //união dos conjuntos
+		conjunto.retainAll(nums);//intersseção
+		System.out.println(conjunto);
+		
+		
 	}
+	
 }
