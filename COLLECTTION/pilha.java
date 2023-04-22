@@ -16,11 +16,15 @@ public class pilha {
 		livros.push("Don Quixote");
 		livros.push("a pequena seria");
 		
-		System.out.println(livros.peek());
-		System.out.println(livros.element());
+		//System.out.println(livros.peek());
+		//System.out.println(livros.element());
 		
-		System.out.println(livros.pop());
-		System.out.println(livros.poll());
+		//System.out.println(livros.pop());
+		//System.out.println(livros.poll());
+		
+		for (String livro : livros) {
+			System.out.println(livro);
+		}
 		
 	}
 
