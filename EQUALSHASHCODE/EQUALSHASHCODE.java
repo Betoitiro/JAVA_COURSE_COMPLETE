@@ -1,6 +1,5 @@
 package EQUALSHASHCODE;
 
-import java.util.Date;
 
 public class EQUALSHASHCODE {
 	
@@ -20,6 +19,5 @@ public class EQUALSHASHCODE {
 											// os usuarios como iguais, caso seja necessario
 		System.out.println(u2.equals(u));
 		
-		System.out.println(u2.equals(new Date()));
 	}
 }

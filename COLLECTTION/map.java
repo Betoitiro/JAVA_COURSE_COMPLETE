@@ -34,7 +34,7 @@ public class map {
 			System.out.println(valor);
 		}
 		
-		for(Entry<Integer, String> registro : usuarios.entrySet()) {
+		for(Entry<Integer, String> registro : usuarios.entrySet()) { //foreach para percorrer os dois
 			System.out.print(registro.getKey() + "==>");
 			System.out.println(registro.getValue());
 		}
