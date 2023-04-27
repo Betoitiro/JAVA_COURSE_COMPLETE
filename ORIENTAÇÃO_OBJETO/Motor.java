@@ -2,6 +2,10 @@ package ORIENTAÇÃO_OBJETO;
 
 public class Motor {
 
+	
+	//RELAÇÃO BIDIRECIONAL
+	//RELAÇÃO UM PARA UM
+	
 	boolean ligado = false;
 	double fatorInjecao = 1;
 	

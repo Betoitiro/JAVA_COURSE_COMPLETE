@@ -2,6 +2,11 @@ package ORIENTAÇÃO_OBJETO;
 
 public class carro {
 	
+	
+	//RELAÇÃO BIDIRECIONAL
+	//RELAÇÃO UM PARA UM
+	
+	
 	Motor motor = new Motor();
 	
 	void acelerar() {

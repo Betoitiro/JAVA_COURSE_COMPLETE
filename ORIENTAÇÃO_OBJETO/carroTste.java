@@ -5,6 +5,9 @@ public class carroTste {
 	
 	public static void main(String[] args) {
 		
+		//RELAÇÃO BIDIRECIONAL
+		//RELAÇÃO UM PARA UM
+		
 		carro c1 = new carro();
 		
 		System.out.println(c1.estaLigado()); //desligado
@@ -29,6 +32,8 @@ public class carroTste {
 		c1.frear();
 		c1.frear();
 		c1.frear();
+		
+		//OU SEJA, INDEPENDENTE DAS VEZES QUE CHAMARMOS A FUNÇÃO FREAR, O MINIMO DE GIROS SERA 600 RPM
 		
 		System.out.println(c1.motor.giros() + "RPM");
 		
