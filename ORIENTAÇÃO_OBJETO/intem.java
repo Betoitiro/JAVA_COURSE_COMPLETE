@@ -2,6 +2,10 @@ package ORIENTAÇÃO_OBJETO;
 
 public class intem {
 	
+	//um para muitos
+	//um cliente para varios intens
+	
+	
 	String nome;
 	int quantidade;
 	double preco;

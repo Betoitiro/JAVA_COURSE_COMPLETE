@@ -4,6 +4,9 @@ public class comprateste {
 	
 	public static void main(String[] args) {
 		
+		//um para muitos
+		//um cliente para varios intens
+		
 		compra compras = new compra();
 		
 		compras.cliente = "marcos";
