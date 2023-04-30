@@ -1,0 +1,3 @@
+O desafio consiste usar a orientação objeto da maneira de 1 para 1, usando classes e metodos, para conseguir criar um sistema de usuario, compra, item, produto.
+
+O sistema não ultiliza relações biderecionais!

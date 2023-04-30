@@ -46,6 +46,9 @@ public class Alunoteste {
 		//mostrar os nomes dos alunos, de acordo com o metodo da classe aluno
 		//System.out.println(aluno1.cursos.get(0).alunos);
 		
+		
+		//Metodo para encontrar os alunos que estão no curso
+		//vai listalos
 		Curso cursoencontrado = aluno3.obterCurso("Javascript");
 		if(cursoencontrado != null) {
 			System.out.println(cursoencontrado.nome);
