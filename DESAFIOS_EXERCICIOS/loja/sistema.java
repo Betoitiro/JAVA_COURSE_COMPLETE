@@ -46,5 +46,15 @@ public class sistema {
 		System.out.println("O desconto que sera sedido para essa compra sera de 15%, o total da compra sera de R$" + descontof2);
 		
 	
+		System.out.println();
+		//produto p4 = new produto(); caso queira colocar desconto teria que importar o produto
+		cliente cl3 = new cliente();
+		cl3.nome = "Edinaldo Pereira";
+		compra c4 = new compra();
+		c4.additem("jogo de calota", 800, 1);
+		
+		cl3.comp.add(c4);
+		
+		System.out.println("O clinte não obteve desconto, o valor a ser pago sera de R$" + cl3.valtol());
 	}
 }
