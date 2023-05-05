@@ -20,6 +20,8 @@ public class jogo {
 		heroi.atacar(monstro);
 		monstro.atacar(heroi);
 		monstro.atacar(heroi);
+		
+		monstro.andar(Direcao.NORTE); //o monstro saiu do angulo de ataqe do heroi
 		heroi.atacar(monstro);
 		heroi.atacar(monstro);
 		heroi.atacar(monstro);
