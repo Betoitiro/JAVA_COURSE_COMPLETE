@@ -2,6 +2,11 @@ package ORIENTAÇÃO_OBJETO.herança1;
 
 public class Heroi extends jogador {
 
+	
+	Heroi(int x, int y){
+		super(0 , 0);
+	}
+	
 	boolean atacar(jogador oponente) {
 	
 		//essa maneira de usar o super, chama o comando da super class

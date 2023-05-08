@@ -1,6 +1,11 @@
 package ORIENTAÇÃO_OBJETO.herança1;
 
 public class Monstro extends jogador {
+	
+	Monstro(int x, int y){
+		super(1, 1);
+	}
+	
 	boolean atacar(jogador oponente) {
 		 int deltax = Math.abs(x- oponente.x);
 		 int deltay = Math.abs(y-oponente.y);

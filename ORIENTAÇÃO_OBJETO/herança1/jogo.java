@@ -4,15 +4,14 @@ public class jogo {
 	
 	public static void main(String[] args) {
 		
-		Heroi heroi = new Heroi();
+		Heroi heroi = new Heroi(9,10);
 		heroi.y = 10;
 		heroi.x = 10;
 		heroi.life =100;	
 		
 		
-		Monstro monstro = new Monstro();
-		monstro.x=10;
-		monstro.y =11;
+		Monstro monstro = new Monstro(10,11);
+
 		monstro.life = 100;
 		
 		//comandos de ataque	
