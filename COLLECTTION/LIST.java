@@ -19,7 +19,8 @@ public class LIST {
 		System.out.println("removida" + lista.remove(1));//removendo pelo indice
 		System.out.println("esta contida?" +lista.remove(new LISTusuario("ana"))); //vai retornar se o usuario foi excluido ou n 
 		
-		System.out.println("esta contida?" +lista.contains("manu"));
+		String o = "manu";
+		System.out.println("esta contida?" +lista.contains(o));
 		
 		for(LISTusuario u : lista) {
 			System.out.println(u.toString()); //usar o metdo criado no construtor
