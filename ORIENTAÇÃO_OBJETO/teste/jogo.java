@@ -1,4 +1,8 @@
-package ORIENTAÇÃO_OBJETO.herança1;
+package ORIENTAÇÃO_OBJETO.teste;
+
+import ORIENTAÇÃO_OBJETO.herança1.Direcao;
+import ORIENTAÇÃO_OBJETO.herança1.Heroi;
+import ORIENTAÇÃO_OBJETO.herança1.Monstro;
 
 public class jogo {
 	

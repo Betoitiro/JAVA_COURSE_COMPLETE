@@ -2,16 +2,16 @@ package ORIENTAÇÃO_OBJETO.herança1;
 
 public class jogador {
 
-	int life;
-	int x;
-	int y;
+	public int life;
+	public int x;
+	public int y;
 	
-	jogador(int x, int y){
+	public jogador(int x, int y){
 		this.x = x;
 		this.y = y;
 	}
 	
-	boolean atacar(jogador oponente) {
+	public boolean atacar(jogador oponente) {
 		 int deltax = Math.abs(x- oponente.x);
 		 int deltay = Math.abs(y-oponente.y);
 		 
@@ -28,7 +28,7 @@ public class jogador {
 	
 
 	
-	boolean andar(Direcao direcao) {
+	public boolean andar(Direcao direcao) {
 		switch(direcao) {
 		case NORTE:
 			y--;

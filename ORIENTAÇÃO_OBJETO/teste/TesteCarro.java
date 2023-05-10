@@ -1,5 +1,8 @@
-package ORIENTAÇÃO_OBJETO.herança2Desafio;
+package ORIENTAÇÃO_OBJETO.teste;
 
+import ORIENTAÇÃO_OBJETO.herança2Desafio.Carro;
+import ORIENTAÇÃO_OBJETO.herança2Desafio.Gol;
+import ORIENTAÇÃO_OBJETO.herança2Desafio.Golf;
 
 public class TesteCarro {
 
@@ -25,7 +28,7 @@ public class TesteCarro {
 		c1.acelerar(); //limitou a velocidade nesse chamado acelerar
 		c1.acelerar();
 		System.out.println(c1);
-		
+	 	
 		System.out.println("Test Speed Golf");
 		
 		Golf g1 = new Golf(120);// esse metodo pode ser definido onde se encontra o construtor padrão

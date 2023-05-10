@@ -3,11 +3,11 @@ package ORIENTAÇÃO_OBJETO.herança2Desafio;
 public class Golf extends Carro {
 	
 	
-	Golf(){
+	public Golf(){
 		this(250);
 	}
 	
-	Golf(int VelocidadeMAxima){
+	public Golf(int VelocidadeMAxima){
 		super(120);
 		delta = 25;
 	}
