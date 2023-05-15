@@ -1,4 +1,4 @@
-package ORIENTAÇÃO_OBJETO;
+package OO;
 
 public class Motor {
 
