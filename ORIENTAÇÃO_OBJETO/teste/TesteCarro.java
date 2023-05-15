@@ -2,6 +2,7 @@ package ORIENTAÇÃO_OBJETO.teste;
 
 import ORIENTAÇÃO_OBJETO.herança2Desafio.Carro;
 import ORIENTAÇÃO_OBJETO.herança2Desafio.Gol;
+import ORIENTAÇÃO_OBJETO.herança2Desafio.GolModificado;
 import ORIENTAÇÃO_OBJETO.herança2Desafio.Golf;
 
 public class TesteCarro {
@@ -38,7 +39,7 @@ public class TesteCarro {
 		g1.acelerar();//os proximos comandos de acelerar n irão passar, por conta do construtor que esta na velocidade maxima
 		g1.acelerar();
 		g1.acelerar();
-		
+		g1.LigarTurbo();
 		System.out.println(g1);
 
 		
@@ -54,6 +55,16 @@ public class TesteCarro {
 		g2.acelerar();
 		
 		System.out.println(g2);
+		System.out.println();
+		System.out.println("Novo Gol Modificado");
+		GolModificado gm = new GolModificado();
+		gm.acelerar();
+		gm.LigarTurbo();
+		gm.acelerar();
+		gm.DesligarTurbo();
+		gm.LigarTurbo();
+		gm.acelerar();
+		System.out.println(gm);
 		
 	}
 }
