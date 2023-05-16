@@ -29,6 +29,7 @@ public class Calculoteste2 {
 		
 		System.out.println(subtrair.executar(925, 5478));
 		
+		//System.out.println(subtrair.legal()); é possivel execultar um metodo default tranquilamente no programa, sem da erro com as lambdas
 		
 		
 	}
