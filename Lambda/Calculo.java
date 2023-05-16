@@ -5,6 +5,8 @@ public interface Calculo {
 
 	double executar(double a, double b);
 	
+	//uma interface funcional é classificada por possuir apenas um metodo
+	
 	//String teste(double c, double d);
 	//se eu colocar outra função na hora de realizar os comandos do calculo 2, ira da erro, ja que vai ter duas funções e isso fara com que o sistema do java n funcione
 	
