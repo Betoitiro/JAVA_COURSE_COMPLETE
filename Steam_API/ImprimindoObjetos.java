@@ -29,7 +29,7 @@ public class ImprimindoObjetos {
         System.out.println("\n \n usando stream para manipular dados");
         Stream<String> stream = aprovados.stream();
         stream.forEach(System.out :: println); //laço interno (todo o algoritimo que ficariam apresentados no codigo
-                            //ficarão implicitos na linguagem, ou seja a propria linguagem fara a opeção do algoritimo)
+                            //ficarão implicitos na linguagem, ou seja a propria linguagem fara a opeção do algoritimoS)
 
 
     }
