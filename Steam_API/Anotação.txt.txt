@@ -39,7 +39,7 @@ pode-se usar o "Predicate<>" para aplicar as funções de filtro do mesmo
 	    .map(saudacaoAprovado)//o map vai aplicar a função vinda da função lambda
 	    .forEach(System.out::.println);//vai imprimir a stream ate sua condição ser 	    satisfeita
 
-
+	
 desse modo o predicade junto com a stream.filter vão salvar todos os alunos que tiveram uma nota maior que 7.
 usando um .forEach(System.out::println), será imprimido todos os alunos que tiveram uma media maior que 7
 
