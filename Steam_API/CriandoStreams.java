@@ -1,6 +1,5 @@
 package Steam_API;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
@@ -36,7 +35,8 @@ public class CriandoStreams {
         List<String> outrasLangs = Arrays.asList("C", " PHP", " Kotlin", " JAVa");
         outrasLangs.stream().forEach(print);
         //usando o stream(). sera possivel acessar varias funcionalidades da linguagem
-        outrasLangs.parallelStream().forEach(print); 
+        outrasLangs.parallelStream()
+            .forEach(print); 
         //não vai apresentar mais da maneira como foi definida, e sim de maneia paralea
 
         //usando o generate, vai criar uma stream de maneira infinita

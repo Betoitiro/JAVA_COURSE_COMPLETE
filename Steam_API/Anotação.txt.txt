@@ -1,0 +1,46 @@
+STREAM_API:
+
+
+public class CriandoStreams {
+
+	Stream consiste em uma maneira de lidar/consumir  dados em tempo real.
+
+	Consumer - interface que recebe um parametro e não vai retornada 
+
+	Stream.of - é a maneira que podemos criar uma Stream
+}
+
+
+
+public class Map {
+
+	Map é responsavel por maperar (tranformar) os elementos de um fluxo de acordo com a função oferecida.
+	
+
+}
+
+
+public class Filter {
+	
+	Filter é responsavel por filtrar uma lista/Array/ArrayList, de maneira que aplique-se uma condição aos elementos do mesmo que irão entrar em outra lista.
+
+pode-se usar o "Predicate<>" para aplicar as funções de filtro do mesmo
+
+
+        Predicate<Filter_Aluno> aprovado = a -> a.nota >=7;
+	Function<Filter_Aluno, String> saudacaoAprovado = 
+                a -> "Parabens " + a.nome + "! Voce foi aprovado!";
+	/*
+	nesse sentido a Function é derivado de uma função lamda que entra-ra para apresentar as "informações" que deverão ser acrescentadas ao codigo
+	*/
+
+	 alunos.stream()
+            .filter(aprovado) //usando filtro
+	    .map(saudacaoAprovado)//o map vai aplicar a função vinda da função lambda
+	    .forEach(System.out::.println);//vai imprimir a stream ate sua condição ser 	    satisfeita
+
+
+desse modo o predicade junto com a stream.filter vão salvar todos os alunos que tiveram uma nota maior que 7.
+usando um .forEach(System.out::println), será imprimido todos os alunos que tiveram uma media maior que 7
+
+}

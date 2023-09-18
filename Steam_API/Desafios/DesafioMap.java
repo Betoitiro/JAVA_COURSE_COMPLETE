@@ -20,7 +20,7 @@ public class DesafioMap {
             s -> new StringBuilder(s).reverse().toString(); //usando uma função lambda para reverter as Strings
 
         Function<String, Integer> binarioParaInt =
-            s-> Integer.parseInt(s,2); 
+            s-> Integer.parseInt(s,2);  
 
         nums.stream()
             .map(Integer:: toBinaryString) //usando a função para mudar para binario
