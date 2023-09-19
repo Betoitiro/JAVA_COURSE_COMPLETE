@@ -1,9 +1,10 @@
-package Steam_API;
+package Steam_API.Filter;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
+
 
 public class Filter {
     

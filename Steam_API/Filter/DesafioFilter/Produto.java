@@ -1,4 +1,4 @@
-package Steam_API.DesafioFilter;
+package Steam_API.Filter.DesafioFilter;
 
 public class Produto {
     

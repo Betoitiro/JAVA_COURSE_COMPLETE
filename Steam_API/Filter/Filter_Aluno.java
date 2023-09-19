@@ -1,4 +1,4 @@
-package Steam_API;
+package Steam_API.Filter;
 
 public class Filter_Aluno {
     
