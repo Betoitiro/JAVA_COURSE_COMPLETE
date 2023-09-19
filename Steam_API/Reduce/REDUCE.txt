@@ -1,0 +1,11 @@
+REDUCE:
+
+Dentro do reduce, vai ser recebido dois parametros:
+	(acumulador, n) ->
+
+Exemplo de reduce:
+
+(0, 5) -> 5 + 0 = 5
+(5, 6) -> 5 + 6 = 11
+(11, 7) -> 11 + 7 = 18
+O valor do acumulador é atualizado a cada iteração, acumulando os resultados parciais. Os valores resultantes são acumulados e usados na próxima iteração, e assim por diante. Neste exemplo, a soma dos elementos resulta em um resultado acumulado que é sucessivamente somado com os próximos elementos em cada iteração.
