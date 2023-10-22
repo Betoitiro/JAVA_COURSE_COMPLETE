@@ -1,6 +1,6 @@
 package Lambda;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
@@ -35,20 +35,17 @@ public class BinaryOperator {
 		
 		java.util.function.BinaryOperator<Double> Media = (n1,n2) -> (n1 + n2)/2;
 		System.out.println(Media.apply(8.0, 5.5));
-		
 		Function<Double, String> conceito = 
-				m-> m >=7 ? "Aprovado" : "Reprovado";
-				
+				m-> m >=7 ? "Aprovado" : "Reprovado";	
 		System.out.println(Media.andThen(conceito).apply(8.4, 5.6));
+		
 		
 		
 		BiFunction<Double, Double,String> resultado = (n1, n2) ->{
 			double mediaF = (n1 + n2) /2;
 			return mediaF >=7 ? "Aprovado" : "Reprovado";
-			
 			//O simbulo de ? -> significca 
 		};
-		
 		System.out.println(resultado.apply(9.5, 4.5));
 		
 		
