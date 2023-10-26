@@ -23,8 +23,18 @@ public class OutrosMetos {
 		
         System.out.println("distintic"); //vai pegar os elementos distintos dentro da lista, ou seja,
         //ira iguinora os semelhantes
+        //Quando um elemento possuir o mesmo nome e a mesma nota que o outro o script ira iguinoralo
         
         alunos.stream().distinct().forEach(System.out::println);
+        
+        System.out.println("\nSlip/limit");
+        alunos.stream()
+        .distinct()
+        .skip(2)//para pular dois elementos
+        .limit(2)//para limitar a capacidade de representaçã para apenas dois elementos
+        .takeWhile(a-> a.nota >=7) //vai pegar todos os alunos que a nota for maior ou igual a 7
+        .forEach(System.out::println);
+        
 	}
 	
 }
