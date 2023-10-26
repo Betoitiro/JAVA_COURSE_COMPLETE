@@ -18,8 +18,24 @@ public class Reduce01 {
             .reduce(soma);
         */
 
-        int total = nums.stream().reduce(soma).get();
+        int total = nums.stream()
+        		.reduce(soma)
+        		.get();
 
         System.out.println("A soma dos valores da lista é " + total);
+        
+        
+        
+        List<Integer>  num2 = Arrays.asList(50,35,25,40);
+        BinaryOperator<Integer> som = (t,n) -> t + n;
+        
+        int full = num2
+        		.stream()
+        		.reduce(som)
+        		.get();
+        
+        System.out.println("A soma dos valores da segunda lista é " + full);
+        
+        
     }
 }

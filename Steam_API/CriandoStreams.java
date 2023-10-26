@@ -11,7 +11,7 @@ public class CriandoStreams {
         
         //Consumer interface que recebe um parametro que recebe um parametro e não retorna nada
         Consumer <String>print = System.out::print;
-        Consumer <Object> print1= System.out :: print;
+        //Consumer <Object> print1= System.out :: print;
 
         //forma de criar uma Stream, é usando o Stream.of
         Stream<String> langs = Stream.of("Java ", " Pyhton", "  JS\n");

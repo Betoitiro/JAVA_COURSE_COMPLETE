@@ -10,10 +10,15 @@ public class ImprimindoObjetos {
         List <String> reprovados = Arrays.asList("julia", "fê", "ygo", "jp");
 
         //usando for para representar todos os objetos da lista
+        
+        System.out.println("Alunos que foram aprovados!");
         for (int i =0; i <aprovados.size();i++){
             System.out.println(aprovados.get(i));
         }
         //usando foreach para apresentar todos os envolvidos da lista
+
+        System.out.println("Alunos que foram reprovados!!");
+        
         for (String nome : reprovados) {
             System.out.println(nome);
         }
