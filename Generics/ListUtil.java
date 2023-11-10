@@ -21,5 +21,4 @@ public class ListUtil {
 	public static <T>T getUltimo2(List<T> Lista) {
 		return Lista.get(Lista.size() -1);
 	}
-	
 }

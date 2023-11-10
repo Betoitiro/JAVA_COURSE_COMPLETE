@@ -16,7 +16,7 @@ public class ListautilTeste {
 		System.out.println(ultimalinguagem);
 		
 		//tem que fazer o cast (Geralmente n é bem sucedido)
-		Integer ultimonum = (Integer)ListUtil.getUltimo1(nums);
+		Integer ultimonum = (Integer)ListUtil.getUltimo2(nums);
 		System.out.println(ultimonum);
 		
 	}
